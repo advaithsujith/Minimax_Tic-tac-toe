@@ -95,7 +95,7 @@ def insertXorO(xoro, position):
 
 
 def humanmove():
-    position = int(input("please make a choice"))
+    position = int(input("please make a choice (1-9)"))
     insertXorO("O", position)
     print()
     print("hmmm", end="")
