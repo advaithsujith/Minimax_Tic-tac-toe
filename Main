@@ -83,10 +83,10 @@ def insertXorO(xoro, position):
             exit()
         if winner():
             if xoro == "X":
-                print("I win, you cant beat me :yawn:")
+                print("I win, you cant beat me!! :yawn:")
                 exit()
             else:
-                print("human won...aka code is wrong")
+                print("Congrats..you won?")
                 exit()
     else:
         print("Already chosen! please make another choice")
@@ -109,7 +109,7 @@ def humanmove():
 
 
 def AI():
-    print("Imma move")
+    print("Ill make a move")
     print()
     bestscore = -10000
     bestmove = 0
